@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+</head>
+<body>
+  
+   <div align="center">
+   <h1>CALCULATOR</h1>  
+   </div>
+   <br><br><br><br> 
+  
+   <div align="center"> 
+    <div class="container">
+        
+   <form name="form">
+     <input class="screen" name="screen" placeholder="0.0"/>
+    </form> 
+       <input type="button" id="delete" value="C" onclick="delete_this();"/>
+       <input type="button" id="ponto" value="." onclick="apertou('.')"/>
+       <input type="button" id="equal" value="=" onclick="equal();"/>
+       <input type="button" id="adicao" value="+" onclick="apertou('+')"/>
+       <br>
+       <input type="button" id="number1" value="1" onclick="apertou(1);"/>
+       <input type="button" id="number2" value="2" onclick="apertou(2);"/>
+       <input type="button" id="number3" value="3" onclick="apertou(3);"/>
+       <input type="button" id="subtracao" value="-" onclick="apertou('-');"/>
+       <br>
+       <input type="button" id="number4" value="4" onclick="apertou(4);" />
+       <input type="button" id="number5" value="5" onclick="apertou(5);"/>  
+       <input type="button" id="number6" value="6" onclick="apertou(6)"/>
+       <input type="button" id="multiplicacao" value="x" onclick="apertou('*');"/>
+       <br>
+       <input type="button" id="number7" value="7" onclick="apertou(7);"/>
+       <input type="button" id="number8" value="8" onclick="apertou(8);"/>    
+       <input type="button" id="number9" value="9" onclick="apertou(9);"/>
+       <input type="button" id="divisao" value="/" onclick="apertou('/')"/>
+       <br>
+      
+      
+
+   
+   </div>
+   </div>
+ 
+</body>
+</html>
