@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size:70pt;
+    text-decoration:underline;
+}
+
+.container{
+    border:2px groove black;
+    width:342px;
+    height:342px;
+    background-color:black;
+}
+
+.screen{
+    border:2px groove black;
+    height:80px;
+    width:253pt;
+    font-size:45pt;
+    text-align:right;
+}
+
+#delete{
+    background-color:red;
+    font-size:30px;
+    width:80px;
+    float:left;
+    margin:3px;
+    padding:10px;
+}
+
+#number1,#number2,#number3,
+#number4,#number5,#number6,
+#number7,#number8,#number9{
+    background-color:darkgray;
+    font-size:30px;
+    float:left;
+    width:80px;
+    margin:3px;
+    padding:10px;
+}
+
+#multiplicacao,#divisao,
+#adicao,#subtracao{
+    background-color:orange;
+    font-size:30px;
+    float:left;
+    width:78px;
+    padding:10px;
+    margin:3px;
+}
+
+#equal,#ponto{
+    background-color:orange;
+    font-size:30px;
+    float:left;
+    width:80px;
+    margin:3px;
+    padding:10px;
+}
