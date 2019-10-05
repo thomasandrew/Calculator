@@ -1,1 +1,1 @@
-# https://thomasandrew.github.io/calculator.github.io/calculator.html
+# https://thomasandrew.github.io/calculator/calculator.html
